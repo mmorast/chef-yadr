@@ -1,4 +1,4 @@
 
 execute "install yadr" do
-	command "sh -c \"`curl -fsSL https://raw.github.com/skwp/dotfiles/master/install.sh`\""
+	command %Q|"sh -c "`curl -fsSL https://raw.github.com/skwp/dotfiles/master/install.sh`"|
 end
